@@ -1,10 +1,10 @@
 ---
-title: "Segundo Post"
+title: "Segundo Post interesante"
 date: 2021-04-15T01:30:26+02:00
 draft: false
 ---
 
-El segundo post... una simple prueba...
+El segundo post... una simple prueba... muy interesante
 
 Este contenido se expresa en Markdown
 
