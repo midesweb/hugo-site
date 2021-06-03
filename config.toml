@@ -1,0 +1,44 @@
+baseURL = "https://hugo.escuelait.com/"
+languageCode = "es"
+title = "Mi sitio web"
+theme = "soho"
+
+[params]
+
+author = "Miguel Angel Alvarez"
+description = "Blogueando..."
+
+profilePicture = "images/developer.png"
+
+copyright = "Miguel!!"
+
+
+  ## Set as many as you want.
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "#"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "#"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/midesweb"
+
+  [menu]
+
+    [[menu.main]]
+      name = "Posts"
+      weight = 100
+      identifier = "posts"
+      url = "/posts/"
+
+    [[menu.main]]
+      name = "Sobre"
+      identifier = "sobre"
+      weight = 300
+      url = "/sobre-mi/"
