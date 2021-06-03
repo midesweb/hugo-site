@@ -31,4 +31,4 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "public/*"
-        target: "/var/www/vhosts/hugo.escuelait.com/site"
+        target: "/var/www/html"
